@@ -1,4 +1,4 @@
-public class AddSubtract {
+public class AddSubtractMultiply {
     public static void main(String[] args) {
         if (args.length < 2) {
             System.out.println("Please provide two numbers as arguments.");
@@ -10,8 +10,10 @@ public class AddSubtract {
 
         int sum = num1 + num2;
         int difference = num1 - num2;
+        int product = num1 * num2;
 
         System.out.println("Addition: " + sum);
         System.out.println("Subtraction: " + difference);
+        System.out.println("Multiplication: " + product);
     }
 }
