@@ -1,4 +1,4 @@
-public class AddSubtractMultiply {
+public class demo {
     public static void main(String[] args) {
         if (args.length < 2) {
             System.out.println("Please provide two numbers as arguments.");
